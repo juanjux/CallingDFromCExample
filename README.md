@@ -2,7 +2,8 @@
 
 A simple example generating a lib.so from D language code and using it in C.
 
-You need a D compiler, could be dmd, gcd or ldc2. If you use gcd or ldc2 update the Makefile DC variable.
+You need a [D compiler](https://dlang.org/download.html); either dmd, gcd or ldc2. If you use gcd or ldc2 update the Makefile DC variable.
+No third party libraries are needed.
 
 Then just run "make" and run ./binary.
 
